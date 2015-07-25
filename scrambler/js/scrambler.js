@@ -160,7 +160,6 @@ $(document).ready(function() {
                     borderColor: '#e6e6e6'
                 });
             });
-
         });
     }
 
@@ -187,7 +186,6 @@ $(document).ready(function() {
     }
 
     function currentScore(the_score){
-        
         $('.score-container').remove();
         $('.actual-score').append('<div class="score-container"><p class="stat-number">' + the_score + 
             '</p><p class="stat-label">Scramblers Solved</p></div>');
