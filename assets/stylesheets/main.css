@@ -96,6 +96,10 @@ Grid
   padding-right: 1.5625%; /* 15px/960px */
 }
 
+p.iconBtn a {
+    border-bottom: none;
+}
+
 /* 
 =======================
 Clearfix
@@ -145,20 +149,22 @@ Buttons
 
 .btn { 
   border-radius: 5px;
-  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
   letter-spacing: .5px;
   margin: 0;
   text-transform: uppercase;
-}
-
-.btn-alt {
-  border: 1px solid #dfe2e5;
   padding: 10px 30px;
   line-height: 2.65em;
 }
+
+.btn-alt {
+  color: #fff;
+  border: 1px solid #dfe2e5;
+/*  padding: 10px 30px;*/
+/*  line-height: 2.65em;
+*/}
 
 .btn-alt:hover {
   background: #fff;
@@ -167,20 +173,21 @@ Buttons
 
 .btn-blue {
   color: #0B3F57;
+  /* rewrite for blue */ border: 1px solid #dfe2e5;
 }
 
 .btn-dark {
-  border-radius: 5px;
+
   color: #648880;
-  cursor: pointer;
-  display: inline-block;
-  font-weight: 400;
-  letter-spacing: .5px;
-  margin: 0;
-  text-transform: uppercase;
-  border: 1px solid #dfe2e5;
-  padding: 10px 30px;
-}
+/*  cursor: pointer;*/
+/*  display: inline-block;*/
+/*  font-weight: 400;
+  letter-spacing: .5px;*/
+/*  margin: 0;*/
+/*  text-transform: uppercase;
+*/  border: 1px solid #dfe2e5;
+/*  padding: 10px 30px;
+*/}
 
 .btn-dark:hover {
   background: #648880;
@@ -200,8 +207,7 @@ Home
   background-position: center;
   margin: auto;
   background-image: url(../images/home/colorado7Blur.jpg);
-/*  background-image: url("https://unsplash.it/1200/600/?random");
-*/  background-size: cover;
+  background-size: cover;
 }
 
 .hero {
@@ -224,7 +230,6 @@ Home
 .hero h1 {
   font-weight: 700;
   color: white;
-  /* text-shadow: 3px 6px 2px rgba(0, 0, 0, .3); */
   text-shadow: 2px 2px 0 rgba(23,46,61,1), 0 0 6px rgba(23,46,61,0.75);
   line-height: 1em;
   margin-bottom: .4em;
@@ -237,7 +242,6 @@ Home
   font-weight: 400;
   color: #fff;
   opacity: .7;
-  /*text-shadow: 3px 6px 2px rgba(0, 0, 0, .3); */
   text-shadow: 2px 2px 0 rgba(23,46,61,1), 0 0 6px rgba(23,46,61,0.75);
   margin-bottom: .8em;
   margin-top: 0;
@@ -258,7 +262,6 @@ Primary Header
   font-size: 3em;
   font-weight: 100;
   letter-spacing: .5px;
-  /*line-height: 44px;*/
   line-height: 0.927;
   text-transform: uppercase;
   font-family: "Lato", Verdana, Geneva, sans-serif;
@@ -278,7 +281,6 @@ Primary Header
 }
 
 h3.tagline {
-  /* color: #FFE4C9; this was the old color */
   color: #a9b2b9
 }
 
@@ -308,7 +310,6 @@ Primary Footer
 Custom Typographic Styles
 =========================
 */
-
 
 body {
   font-family: "Lato", "Trebuchet MS", Arial, Calibri, sans-serif;
@@ -380,6 +381,10 @@ em {
 
 .container h4 {
   text-align: center;
+}
+
+.centerText {
+   text-align: center;
 }
 
 /* 
@@ -923,30 +928,30 @@ PR Timeline
 }
 
 .timeline-title {
-margin-top: 0;
-color: inherit;
-width: 60%;
-float: left;
-word-wrap: break-word;
-margin-bottom: 10px;
-font-size: 1.25em;
+  margin-top: 0;
+  color: inherit;
+  width: 60%;
+  float: left;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+  font-size: 1.25em;
 }
 
 .timeline-body {
-clear: both;
-color: #222;
-font-size: 1em;
-margin: 10px;
-margin-left: 15px;
-line-height: 1.15em;
+  clear: both;
+  color: #222;
+  font-size: 1em;
+  margin: 10px;
+  margin-left: 15px;
+  line-height: 1.15em;
 }
 
 .story-date {
-float: right;
-width: 30%;
-text-align: right;
-font-size: 0.7em;
-color: #acacac;
+  float: right;
+  width: 30%;
+  text-align: right;
+  font-size: 0.7em;
+  color: #acacac;
 }
 
 /* 
@@ -972,12 +977,12 @@ img { border: 0; max-width: 100%; }
 #wrapper {
   display: block;
   max-width: 1100px;
-  margin: 0 5.5% 0 2.5%;
   width: 100%;
 }
 
 #portfolio {
   display: block;
+  margin: 0 0 0 2%;
 }
 
 #portfolio li {
@@ -1020,7 +1025,6 @@ html[xmlns] .clearfix { display: block; }
   #wrapper {
   display: block;
   max-width: 1100px;
-  margin: 0 5.5% 0 2.5%;
   width: 100%;
   }
 }
@@ -1372,7 +1376,12 @@ Tablet
   #categories {
     margin: 0 auto 30px auto;
   }
+
+  .btn {
+    width: 100%;
+  }
 }
+
 
 /* Smartphones (landscape) (max-width: 480px) */
 @media screen and (max-width: 30em) {
