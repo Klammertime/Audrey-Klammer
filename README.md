@@ -11,3 +11,6 @@ http://klammertime.github.io/Audrey-Klammer/
 * [Coding a Responsive Lightbox Image Gallery for Website Portfolios](https://www.templatemonster.com/blog/coding-responsive-lightbox-gallery-portfolios-tutorial/)
 * [To Design or Not to Design in the Browser – 20 Pros vs. 6 Cons (Updated)](http://www.htmlcut.com/blog/designing-directly-in-browser.html)
 * [23 steps to the perfect website layout](http://www.creativebloq.com/web-design/steps-perfect-website-layout-812625)
+* [Flexible CSS cover images](http://nicolasgallagher.com/flexible-css-cover-images/)
+* [Useful List of Responsive Navigation and Menu Patterns](https://sitesforprofit.com/incredibly-useful-list-of-responsive-navigation-and-menu-patterns)
+* [Responsive Showcase Psd Vol2](https://www.pixeden.com/psd-web-elements/responsive-showcase-psd-vol2)
