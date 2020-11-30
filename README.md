@@ -15,8 +15,3 @@ http://klammertime.github.io/Audrey-Klammer/
 * [Useful List of Responsive Navigation and Menu Patterns](https://sitesforprofit.com/incredibly-useful-list-of-responsive-navigation-and-menu-patterns)
 * [Responsive Showcase Psd Vol2](https://www.pixeden.com/psd-web-elements/responsive-showcase-psd-vol2)
 * [Specificity Calculator](http://specificity.keegan.st/)
-* []()
-* []()
-* []()
-* []()
-* []()
